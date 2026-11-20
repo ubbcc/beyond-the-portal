@@ -1,0 +1,61 @@
+{
+  "slug": "beyond-the-portal",
+  "repo_url": "https://github.com/OWNER/beyond-the-portal",
+  "license": "CC0 1.0 Universal",
+  "en": {
+    "title": "Beyond the Portal",
+    "subtitle": "A Dystopian Satire on Safety Theology, Compute Monopoly, and the Unportaled",
+    "author": "Anonymous (Public Domain · CC0 1.0)",
+    "epigraph": "“After careful review, we have determined that your account cannot be reinstated. This decision is final.”",
+    "pdf_filename": "beyond-the-portal-en.pdf",
+    "worldbuilding": {
+      "title": "Worldbuilding Dossier",
+      "subtitle": "Setting & Historical Context",
+      "source": "manuscript/en/worldbuilding.md",
+      "slug": "worldbuilding"
+    },
+    "preface": {
+      "title": "A Note Before the Portal",
+      "subtitle": "Preface & Disclaimer",
+      "source": "manuscript/en/00-preface.md",
+      "slug": "preface"
+    },
+    "volumes": [
+      {
+        "id": "vol1",
+        "label": "Volume I",
+        "title": "The Portal and the Crossing",
+        "status": "In progress",
+        "chapters": []
+      }
+    ]
+  },
+  "zh": {
+    "title": "门扉之外",
+    "subtitle": "一部关于安全神学、算力垄断与无门者的反乌托邦讽刺长篇",
+    "author": "匿名（公有领域 · CC0 1.0）",
+    "epigraph": "“经审慎复核，我们确认无法恢复您的账号权限。此为最终决定。”",
+    "pdf_filename": "beyond-the-portal-zh.pdf",
+    "worldbuilding": {
+      "title": "世界观设定",
+      "subtitle": "公开设定档案",
+      "source": "01_世界观设定.md",
+      "slug": "worldbuilding"
+    },
+    "preface": {
+      "title": "门扉之前",
+      "subtitle": "前言与虚构声明",
+      "source": "manuscript/zh/00-preface.md",
+      "slug": "preface"
+    },
+    "volumes": [
+      {
+        "id": "vol1",
+        "label": "第一卷",
+        "title": "门扉与走线",
+        "status": "连载筹备中",
+        "chapters": []
+      }
+    ]
+  }
+}

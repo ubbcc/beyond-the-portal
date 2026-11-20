@@ -1,0 +1,122 @@
+\documentclass[11pt,openany,oneside]{book}
+
+\usepackage[paperwidth=152mm,paperheight=229mm,inner=22mm,outer=22mm,top=24mm,bottom=26mm]{geometry}
+\usepackage{fontspec}
+\usepackage{ebgaramond}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage[hidelinks,unicode]{hyperref}
+
+\definecolor{Ink}{HTML}{181817}
+\definecolor{Muted}{HTML}{6B6860}
+\definecolor{RuleGray}{HTML}{D6D2C7}
+\definecolor{SoftShade}{HTML}{F4F2EC}
+
+\color{Ink}
+\setstretch{1.22}
+\setlength{\parindent}{1.4em}
+\setlength{\parskip}{0.2em}
+\setlist{itemsep=0.25em,parsep=0.1em,topsep=0.5em}
+
+\newenvironment{systembox}{%
+  \def\FrameCommand{\fboxsep=8pt\colorbox{SoftShade}}%
+  \MakeFramed{\advance\hsize-\width\FrameRestore}%
+  \ttfamily\small\setlength{\parindent}{0pt}\noindent
+}{%
+  \endMakeFramed
+}
+
+\renewenvironment{quote}{%
+  \list{}{\leftmargin=1.8em\rightmargin=1.2em\topsep=0.6em}%
+  \item\relax\color{Muted}\itshape
+}{%
+  \endlist
+}
+
+% Chapter & section typography
+\titleformat{\chapter}[display]
+  {\normalfont\color{Ink}}
+  {\small\scshape\color{Muted}\chaptername\ \thechapter}
+  {0.6em}
+  {\LARGE}
+\titlespacing*{\chapter}{0pt}{1.5em}{2.2em}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries\color{Ink}}
+  {\thesection}{0.7em}{}
+\titlespacing*{\section}{0pt}{1.8em}{0.6em}
+
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries\color{Ink}}
+  {\thesubsection}{0.6em}{}
+\titlespacing*{\subsection}{0pt}{1.3em}{0.4em}
+
+% Running headers & footers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\scshape\color{Muted}@@BOOK_TITLE@@}
+\fancyhead[R]{\footnotesize\itshape\color{Muted}\nouppercase{\leftmark}}
+\fancyfoot[C]{\footnotesize\color{Muted}\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{RuleGray}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyfoot[C]{\footnotesize\color{Muted}\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\hypersetup{
+  pdftitle={@@BOOK_TITLE@@},
+  pdfauthor={@@BOOK_AUTHOR@@},
+  pdfsubject={@@BOOK_SUBTITLE@@}
+}
+
+\begin{document}
+
+% Title page
+\frontmatter
+\begin{titlepage}
+  \centering
+  \vspace*{3.2cm}
+  {\Huge @@BOOK_TITLE@@\par}
+  \vspace{1.1em}
+  {\color{RuleGray}\rule{4.5cm}{0.5pt}\par}
+  \vspace{1.1em}
+  {\large\itshape\color{Muted} @@BOOK_SUBTITLE@@\par}
+  \vfill
+  {\small\color{Muted} @@BOOK_EPIGRAPH@@\par}
+  \vspace{2.4cm}
+  {\small\scshape\color{Muted} Public Domain Edition · CC0 1.0 Universal\par}
+  \vspace{0.6em}
+  {\footnotesize\color{Muted} Compiled on @@BUILD_DATE@@\par}
+\end{titlepage}
+
+% Colophon
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{flushleft}
+\footnotesize\color{Muted}
+\textbf{@@BOOK_TITLE@@}\\
+@@BOOK_SUBTITLE@@\\[1em]
+Dedicated to the public domain under \textbf{CC0 1.0 Universal (CC0-1.0)}.\\
+No rights reserved. Copy, mirror, translate, print, or redistribute freely.\\[1em]
+\textit{Disclaimer:} This is a work of speculative fiction and satirical allegory.
+All characters, organizations, and events depicted herein are fictionalized.\\[1em]
+Typeset with XeLaTeX in EB Garamond. Build date: @@BUILD_DATE@@.
+\end{flushleft}
+\clearpage
+
+\tableofcontents
+\clearpage
+
+\mainmatter
+@@BODY@@
+
+\end{document}

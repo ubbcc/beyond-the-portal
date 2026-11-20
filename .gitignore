@@ -1,0 +1,47 @@
+# ==============================================================================
+# Spoiler-protected architecture, character, outline & research notes (local only)
+# Only 01_世界观设定.md is intentionally public.
+# ==============================================================================
+02_人物与阵营.md
+03_全书大纲.md
+refrence/
+reference/
+notes/
+private/
+drafts/
+*_大纲*.md
+*_人物*.md
+*_阵营*.md
+*_细纲*.md
+
+# ==============================================================================
+# Build outputs & LaTeX intermediates
+# ==============================================================================
+dist/
+build/
+_site/
+*.aux
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.xdv
+
+# ==============================================================================
+# OS / Editor / Python artifacts
+# ==============================================================================
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

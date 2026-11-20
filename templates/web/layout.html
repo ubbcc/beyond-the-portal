@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{HTML_LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{PAGE_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ROOT_PREFIX}}assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-brand" href="{{HOME_HREF}}">{{BRAND_TITLE}}</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="{{PDF_HREF}}">{{PDF_LABEL}}</a>
+      <a href="{{REPO_URL}}" target="_blank" rel="noopener">GitHub</a>
+      <a class="lang-switch" href="{{ALT_LANG_HREF}}">{{ALT_LANG_LABEL}}</a>
+    </nav>
+  </header>
+
+  <main>
+    {{CONTENT}}
+  </main>
+
+  <footer class="site-footer">
+    <span>{{FOOTER_LEFT}}</span>
+    <span>{{FOOTER_RIGHT}}</span>
+  </footer>
+</body>
+</html>
