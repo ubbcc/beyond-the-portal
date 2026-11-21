@@ -35,7 +35,10 @@ jobs:
             texlive-fonts-recommended \
             texlive-fonts-extra \
             texlive-latex-extra \
+            fonts-ebgaramond \
+            fonts-ebgaramond-extra \
             lmodern
+          fc-cache -f
 
       - name: Build bilingual GitHub Pages and LaTeX PDFs
         run: python3 scripts/build.py
