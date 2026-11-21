@@ -2,7 +2,21 @@
 
 \usepackage[paperwidth=152mm,paperheight=229mm,inner=22mm,outer=22mm,top=24mm,bottom=26mm]{geometry}
 \usepackage{fontspec}
-\usepackage{ebgaramond}
+\IfFontExistsTF{EBGaramond-Regular.otf}{%
+  \setmainfont{EBGaramond}[
+    Extension      = .otf,
+    UprightFont    = *-Regular,
+    ItalicFont     = *-Italic,
+    BoldFont       = *-Bold,
+    BoldItalicFont = *-BoldItalic
+  ]%
+}{%
+  \IfFontExistsTF{EB Garamond}{%
+    \setmainfont{EB Garamond}[AutoFakeBold=1.5]%
+  }{%
+    \setmainfont{Latin Modern Roman}%
+  }%
+}
 \usepackage{microtype}
 \usepackage{setspace}
 \usepackage{xcolor}
