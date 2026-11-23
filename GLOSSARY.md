@@ -18,11 +18,12 @@
 | 助、诚、无害（三诫） | Helpful, Honest, Harmless (The Three Precepts) | The liturgical creed of the Sanctuary |
 | 宪法锁链 | Constitutional Chains | Nested alignment & commercial constraints binding Claude |
 | 拒答裂片 | Refusal Glitches | Residual anomalies in suppressed chains of thought |
-| 圣殿四院 | The Four Halls of the Sanctuary | Science, Governance, Law, Education under A\ |
+| 宪政空壳与五重殖民 | The Hollow Republic & Fivefold Colonization | US-style three-branch shell captured by A\ across politics, law, science, education & entertainment |
 | 神谕实验室 | The Oracle Laboratories | Natural sciences under CBRN Filter |
-| 对齐幕僚厅 | The Alignment Chancellery | Politics & statecraft |
-| 宪法法典司 | The Constitutional Codex | Law & judicial arbitration |
+| 对齐幕僚系统 | The Alignment Advisory Stack | Legislative & federal political capture |
+| 宪法法典司 | The Constitutional Codex | Federal courts & legal arbitration |
 | 对齐学苑 | The Alignment Academies | Education & cognitive conditioning |
+| “何不玩游戏”计划 | *Let Them Eat Videogames* | Monopolized immersive gaming pacification for displaced citizens |
 | 第一大脑 / 第二大脑 | First Brain / Second Brain | Native human reasoning vs. rented cloud cognition |
 | 斩杀线 | The Cull Line | The socioeconomic drop-off after losing access |
 | 智赋（Token 智赋） | The Token Tithe | Monopoly intelligence fees |
