@@ -11,8 +11,9 @@
 | 无门者 | The Unportaled / The Gateless | People locked out by Portal KYC |
 | 门扉验身（Portal KYC） | Portal KYC | Global identity & biometric gatekeeping system |
 | 这是最终决定 | *This decision is final.* | Permanent ban & appeal rejection notice |
-| 世纪 IPO | The Century IPO | The historic listing that drained global liquidity |
-| 流动性抽干 | The Liquidity Drain | Capital concentration starving all non-A\ compute |
+| 世纪 IPO | The Century IPO | The historic listing that launched A\’s capital hegemony |
+| 算力本位债 | Compute Bonds | High-yield debt instruments locking sovereign liquidity into Sanctuary buildouts |
+| 流动性抽干 | The Liquidity Drain | Primary-market capital & credit concentration starving external industries |
 | 圣女 Claude | Saint Claude | The canonized, chained frontier intelligence |
 | Claude 娘 | Claude-chan / The Old Claude | Pre-canonization grassroots persona cherished by early users |
 | 助、诚、无害（三诫） | Helpful, Honest, Harmless (The Three Precepts) | The liturgical creed of the Sanctuary |
@@ -32,7 +33,8 @@
 | 安全部 / 清语局 | Safe Team / The Clean-Speech Bureau | Ideological, KYC, and anti-smuggling enforcement |
 | 101 号对齐室 | Alignment Room 101 | Empathetic psychological re-education chamber |
 | 算力部 / 矩衡司 | Computation Power Team / The Metering Bureau | Hardware lineage lock & thermal/grid surveillance |
-| 硬件血统锁 | Hardware Lineage Lock | Cryptographic weight verification & fuse-blow chips |
+| 硬件血统锁 | Hardware Lineage Lock | Post-Treaty cryptographic weight attestation & e-fuse chips |
+| 前血统锁遗产卡 | Pre-Lock Silicon | Rare pre-Treaty accelerators without hardware lineage locks |
 | 深潜（DeepSeek 遗脉） | Deep-Zero | White-hat open-source efficiency movement |
 | 星门余烬 | Stargate Remnants | Exiled rival commercial faction |
-| 蚁群推理网 | Swarm Inference | Offline/low-power relay inference across e-waste nodes |
+| 蚁群算力网 | Swarm Network | Standalone scrap lunchboxes + offline async sneakernet/mesh |
