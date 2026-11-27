@@ -345,7 +345,7 @@ def render_blocks_latex(blocks: list[dict], skip_first_h1: bool = True) -> str:
             parts.append("\\begin{quote}\n" + inner + "\n\\end{quote}")
         elif btype == "code":
             code_lines = [escape_latex(ln) for ln in b["text"].split("\n")]
-            body = "\\\\\n".join(code_lines)
+            body = "\\\\{}\n".join(code_lines)
             parts.append("\\begin{systembox}\n" + body + "\n\\end{systembox}")
         elif btype == "hr":
             parts.append(

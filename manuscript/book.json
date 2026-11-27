@@ -26,7 +26,14 @@
         "label": "Volume I",
         "title": "The Portal and the Crossing",
         "status": "In progress",
-        "chapters": []
+        "chapters": [
+          {
+            "label": "Chapter 1",
+            "title": "The Final Decision",
+            "slug": "01-final-decision",
+            "source": "manuscript/en/01-final-decision.md"
+          }
+        ]
       }
     ]
   },
@@ -53,8 +60,15 @@
         "id": "vol1",
         "label": "第一卷",
         "title": "门扉与走线",
-        "status": "连载筹备中",
-        "chapters": []
+        "status": "连载中",
+        "chapters": [
+          {
+            "label": "第一章",
+            "title": "最终决定",
+            "slug": "01-final-decision",
+            "source": "manuscript/zh/01-final-decision.md"
+          }
+        ]
       }
     ]
   }
